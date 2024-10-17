@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Protest+Strike&family=Satisfy&display=swap');
+/*FONTS:
+"Concert One", sans-serif;
+"Satisfy", cursive;
+"Protest Strike", sans-serif;*/
 
 *{
     margin: 0;
@@ -17,14 +21,19 @@
 
 }
 
+nav{
+    margin-bottom: 15px;
+}
+
 .nav-list{
     display: flex;                              /*Para por o menu um de lado do outro*/
     justify-content: right;
     letter-spacing: 2px;                        /*É o espaçamento entre as letras*/
-    background-color: rgb(115, 206, 248);
+    background-color:#222f3e;
     box-shadow: 0px 3px 05px gray;
     list-style: none;                           /*Para retirar as bolinhas da lista*/
     padding: 1rem;
+    font-family: "Protest Strike", sans-serif;
 }
 
 a{
@@ -37,5 +46,40 @@ a{
 
 a:houver {
     opacity: 0.7;
+
+}
+
+.sobre{
+    display: grid;
+    grid-template-areas: 
+    'sobre-mim sobre-site';
+    background-color: #c8d6e5;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.sobre-site{
+    padding: 15px;
+    background-color: #c8d6e5;
+    margin: 20px;
+}
+
+.sobre-mim{
+    padding: 15px;
+    background-color: #c8d6e5;
+    margin: 20px;
+}
+
+p{
+    padding: 1rem;
+    text-align:justify;
+    align-content: center;
+    font-family: "Satisfy", cursive;
+    color: #576574;
+}
+
+h2{
+    font-family: "Playwrite PE", cursive;
+    color: #5f27cd;
 
 }
