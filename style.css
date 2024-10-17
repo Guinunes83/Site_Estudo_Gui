@@ -4,39 +4,46 @@
 "Satisfy", cursive;
 "Protest Strike", sans-serif;*/
 
-*{
+* {
     margin: 0;
     padding: 0;
 
 }
 
-.cabeçalho{
+.cabeçalho {
     display: flex;
     padding: 2rem;
-    background-color:blue;
+    background-color: blue;
     color: whitesmoke;
     justify-content: center;
     font-family: "Protest Strike", sans-serif;
-    
 
 }
 
-nav{
+body {
+    background-color: aliceblue;
+
+}
+
+nav {
     margin-bottom: 15px;
 }
 
-.nav-list{
-    display: flex;                              /*Para por o menu um de lado do outro*/
+.nav-list {
+    display: flex;
+    /*Para por o menu um de lado do outro*/
     justify-content: right;
-    letter-spacing: 2px;                        /*É o espaçamento entre as letras*/
-    background-color:#222f3e;
+    letter-spacing: 2px;
+    /*É o espaçamento entre as letras*/
+    background-color: #222f3e;
     box-shadow: 0px 3px 05px gray;
-    list-style: none;                           /*Para retirar as bolinhas da lista*/
+    list-style: none;
+    /*Para retirar as bolinhas da lista*/
     padding: 1rem;
     font-family: "Protest Strike", sans-serif;
 }
 
-a{
+a {
     display: flex;
     margin-right: 32px;
     text-decoration: none;
@@ -49,38 +56,41 @@ a:houver {
 
 }
 
-.div-1{
+.div-1 {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin: 20px;
+
 }
 
-fieldset{
+fieldset {
     background-color: aqua;
+    margin: 10px;
+    box-shadow: 0px 3px 05px gray;
 }
 
-selection{
+selection {
     padding: 15px;
     background-color: #c8d6e5;
     margin: 20px;
 }
 
-.sobre-mim{
+.sobre-mim {
     padding: 15px;
     background-color: #c8d6e5;
     margin: 20px;
 }
 
-p{
+p {
     padding: 1rem;
-    text-align:justify;
+    text-align: justify;
     align-content: center;
     font-family: "Satisfy", cursive;
     color: #576574;
 }
 
-h2{
+h2 {
     font-family: "Playwrite PE", cursive;
     color: #5f27cd;
-
+    margin-left: 15px
 }
