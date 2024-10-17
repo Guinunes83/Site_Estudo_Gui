@@ -49,16 +49,17 @@ a:houver {
 
 }
 
-.sobre{
-    display: grid;
-    grid-template-areas: 
-    'sobre-mim sobre-site';
-    background-color: #c8d6e5;
+.div-1{
+    display: flex;
     justify-content: space-between;
     margin: 20px;
 }
 
-.sobre-site{
+fieldset{
+    background-color: aqua;
+}
+
+selection{
     padding: 15px;
     background-color: #c8d6e5;
     margin: 20px;
