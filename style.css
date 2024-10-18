@@ -7,24 +7,39 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 
 }
 
-.cabeçalho {
-    display: flex;
-    padding: 2rem;
-    color: whitesmoke;
+header{
+    background-image: url(assets/img/img-fundo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+div container{
+    width: 100%;
+    max-width: 500px;
+    background: transparent;
     justify-content: center;
-    font-family: "Protest Strike", sans-serif;
+    backdrop-filter:blur (10px);
+    padding: 50px
 }
 
-h1{
+.text{
+    display: flex;
+    font-family: "Protest Strike", sans-serif;
+    color:#ffffff;
+    justify-content: center;
     text-shadow: 0px 3px 05px gray;
+    padding: 4%;
+
 }
 
 body {
     background-color: aliceblue;
-
 }
 
 nav {
@@ -37,12 +52,14 @@ nav {
     justify-content: right;
     letter-spacing: 2px;
     /*É o espaçamento entre as letras*/
-    background-color: #222f3e;
     box-shadow: 0px 3px 05px gray;
+    /*Sombra*/
     list-style: none;
     /*Para retirar as bolinhas da lista*/
     padding: 1rem;
     font-family: "Protest Strike", sans-serif;
+    background-color: black;
+
 }
 
 a {
@@ -58,7 +75,6 @@ a:houver {
 
 }
 .div-container {
-    background-image: url(assets/img/codificacao-de-programa-de-computador-na-tela.jpg);
     display: grid;
     column-gap: 10px;
     grid-template-columns: auto auto auto;
@@ -81,7 +97,7 @@ fieldset {
     margin: 20px;
 }
 
-.p-codigo {
+.p-titulo {
     margin-left: 1rem; margin-right: 1rem;
     text-align: justify;
     align-content: center;
@@ -102,4 +118,10 @@ h2 {
     color: #fdfdfd;
     margin-left: 15px; margin-right: 15px;
     align-items: center;
+}
+
+p{
+    color: rgb(242, 247, 243);
+    font-family: "Satisfy", cursive;
+
 }
