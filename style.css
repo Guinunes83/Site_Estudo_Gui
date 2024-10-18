@@ -22,7 +22,6 @@ header{
 div container{
     width: 100%;
     max-width: 500px;
-    background: transparent;
     justify-content: center;
     backdrop-filter:blur (10px);
     padding: 50px
@@ -35,7 +34,8 @@ div container{
     justify-content: center;
     text-shadow: 0px 3px 05px gray;
     padding: 4%;
-
+    /*Para fazer o degrade em cima da imagem. Tem que aplicar no elemento filho*/
+    background: linear-gradient(180deg, transparent, black 98px);
 }
 
 body {
