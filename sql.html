@@ -31,12 +31,19 @@
 
     <div class="div-container">
         <SECTION class="div-item">
-            <fieldset>
-                <H2><code><u>CREATE TABLE</u></code></H2>
-                <p class="p-titulo"><b style="color:darkorange">CREATE TABLE</b> nome_tabela (Coluna</p><br>
-                <p class="p-texto">texto</p>
+            <fieldset style="background-color: cornflowerblue;">
+                <H2><b><code><u style="display: flex; justify-content: center; margin-top: 10px;">CREATE TABLE</u></code></b></H2>
+                <fieldset class="interna" style="margin: 15px">
+                    <p class="p-titulo"><b style="color:darkorange">CREATE TABLE</b> nome_tabela (<br>
+                    <p class="p-titulo">Column_1 <b style="color:darkorange">INT PRIMARY KEY AUTO_INCREMENT</b>,<br></p>
+                    <p class="p-titulo">column_2 <b style="color:darkorange">VARCHAR(30)</b>,</p><br>
+                    <p class="p-titulo">column_3 <b style="color:darkorange">DATE/TIME</b>,</p><br>
+                </fieldset>
+                <p class="p-texto">Os codigos apos o nome da tabela, são os atributos da coluna, o que vai especificar
+                    qual será o tipo de dado.</p>
             </fieldset>
         </SECTION>
+
         <SECTION class="div-item">
             <fieldset>
                 <H2><code>TITULO DO CODIGO</code></H2>
